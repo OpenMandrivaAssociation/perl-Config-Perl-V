@@ -1,15 +1,15 @@
 %define upstream_name    Config-Perl-V
-%define upstream_version 0.12
+%define upstream_version 0.18
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 0.18
+Release:	1
 
 Summary:	A module that will return you the output of
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Config/%{upstream_name}-%{upstream_version}.tgz
+Source0:	http://www.cpan.org/modules/by-module/Config/Config-Perl-V-0.18.tgz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Config)
@@ -63,3 +63,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Tue Mar 16 2010 cpan2dist 0.12-1mdv
 - initial mdv release, generated with cpan2dist
+
