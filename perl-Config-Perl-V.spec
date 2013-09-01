@@ -2,14 +2,14 @@
 %define upstream_version 0.18
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 0.18
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	A module that will return you the output of
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Config/Config-Perl-V-0.18.tgz
+Source0:	http://www.cpan.org/modules/by-module/Config/Config-Perl-V-%{upstream_version}.tgz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Config)
