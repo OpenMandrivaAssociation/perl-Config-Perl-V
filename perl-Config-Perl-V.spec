@@ -21,7 +21,7 @@ BuildArch:	noarch
 $conf = myconfig ()
     This function will collect the data described in the the hash structure
     manpage below, and return that as a hash reference. It optionally
-    accepts an option to include more entries from %ENV. See the
+    accepts an option to include more entries from the ENV hash. See the
     environment manpage below.
 
     Note that this will not work on uninstalled perls when called with
