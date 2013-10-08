@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	4
 
 Summary:	A module that will return you the output of
 License:	GPL+ or Artistic
@@ -21,7 +21,7 @@ BuildArch:	noarch
 $conf = myconfig ()
     This function will collect the data described in the the hash structure
     manpage below, and return that as a hash reference. It optionally
-    accepts an option to include more entries from %ENV. See the
+    accepts an option to include more entries from the ENV hash. See the
     environment manpage below.
 
     Note that this will not work on uninstalled perls when called with
