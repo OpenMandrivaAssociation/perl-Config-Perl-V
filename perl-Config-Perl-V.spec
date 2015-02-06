@@ -2,7 +2,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:	A module that will return you the output of
 License:	GPL+ or Artistic
